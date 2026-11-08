@@ -1,26 +1,20 @@
-# 安全政策 / Security Policy
+# Security Policy
 
-## 报告漏洞 / Reporting a Vulnerability
-
-请**不要**通过公开 Issue 报告安全问题。
-
-请使用 GitHub 的私密安全报告功能：在本仓库 **Security** 标签页 → **Report a vulnerability**，或通过官方渠道联系我们。
+## Reporting a Vulnerability
 
 Please do **not** report security vulnerabilities through public issues.
 
-Use GitHub's private vulnerability reporting: open the **Security** tab of this repository → **Report a vulnerability**.
+Use GitHub's private vulnerability reporting: open the **Security** tab of this repository → **Report a vulnerability**, or reach us through the official contact channels.
 
-## 处理流程 / Response Process
+## Response Process
 
-1. 收到报告后我们会尽快确认并评估影响。
-2. 修复完成后发布新版本，并视情况公开致谢。
-3. 请在修复版本发布前不要公开披露漏洞细节。
+1. We will acknowledge your report as soon as possible and assess its impact.
+2. Once the fix is ready, we will release a new version and may publicly credit you.
+3. Please do not disclose vulnerability details before the fixed version is released.
 
-We will acknowledge your report, assess the impact, and coordinate a fix and disclosure timeline with you.
+## Supported Versions
 
-## 支持版本 / Supported Versions
-
-| 版本 / Version | 支持 / Supported |
-| ------- | ------------------ |
-| latest   | ✅ |
-| < latest | ❌ |
+| Version  | Supported |
+| -------- | --------- |
+| latest   | ✅         |
+| < latest | ❌         |
