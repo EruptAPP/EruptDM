@@ -1,0 +1,62 @@
+name: 🐛 Bug 报告 / Bug Report
+description: 报告一个可以复现的问题
+title: "[BUG]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈问题！标题已自动带上 `[BUG]: ` 前缀，请直接在其后补充一句简短描述。
+        Thanks for taking the time to report a bug! Just add a short description after the `[BUG]: ` title prefix.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述 / What happened?
+      description: 清晰描述遇到的问题，以及你期望的正确行为。
+      placeholder: 简短明了地描述这个 Bug…
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤 / Steps to reproduce
+      placeholder: |
+        1. 打开 …
+        2. 点击 …
+        3. 出现错误 …
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 操作系统 / Operating System
+      options:
+        - macOS
+        - Windows
+        - Linux
+        - 其他 / Other
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: 应用版本 / App Version
+      placeholder: 例如 / e.g. 2.2.1
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志信息 / Logs
+      description: 如有相关错误日志或截图，请粘贴于此。
+      render: shell
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: 补充信息 / Additional Context
+      description: 其他有助于定位问题的信息（截图、链接等）。
